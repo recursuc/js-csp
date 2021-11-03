@@ -1,5 +1,5 @@
 import { expect } from 'chai'
-import Queue from '../src/csp/buffers'
+import Queue from '../src/buffers'
 import { Channel, put, take, select, repeatTake, sleep } from '../src/csp'
 
 describe('Channel', () => {
